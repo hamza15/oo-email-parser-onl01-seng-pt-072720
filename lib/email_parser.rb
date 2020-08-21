@@ -5,10 +5,13 @@
 
 class EmailAddressParser
   
+  attr_accessor :input
+  
   def initialize(input)
-    parse(input)
+    @input = input
   end
   
   def parse(input)
-    
+    first = input.split(", ")
+  end
 end
