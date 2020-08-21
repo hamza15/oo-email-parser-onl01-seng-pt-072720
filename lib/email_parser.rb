@@ -14,6 +14,8 @@ class EmailAddressParser
   def parse(input)
     first = @input.split(",")
     first.collect do |value|
-      if value.
+      if value.include?(",")
+        value.chomp(",")
+      end
   end
 end
