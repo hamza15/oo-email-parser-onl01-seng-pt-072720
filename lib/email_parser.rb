@@ -9,5 +9,6 @@ class EmailAddressParser
     parse(input)
   end
   
-  def parse
+  def parse(input)
+    
 end
