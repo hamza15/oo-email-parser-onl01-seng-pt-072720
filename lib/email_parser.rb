@@ -17,5 +17,6 @@ class EmailAddressParser
       if value.include?(",")
         value.chomp(",")
       end
+    end
   end
 end
