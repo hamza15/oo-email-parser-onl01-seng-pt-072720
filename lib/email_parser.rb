@@ -12,6 +12,6 @@ class EmailAddressParser
   end
   
   def parse(input)
-    first = input.split(", ")
+    first = @input.split(", ")
   end
 end
